@@ -22,12 +22,12 @@ conda install pytorch torchvision torchaudio cpuonly -c pytorch
 The user has to first download our dataset as a zip file from the following links either from One drive or Google drive.
 
 * Google drive
-  * Fibre <https://drive.google.com/file/d/1e_E9NeTs7qSuUzWszSkmK09jTHPQwdd6/view?usp=sharing>
-  * Fabric <https://drive.google.com/file/d/1G_g3NEcluW9iKbWY6BiCMcSo0eLxCG0z/view>
+  * [TextileNet-fibre](https://drive.google.com/file/d/1e_E9NeTs7qSuUzWszSkmK09jTHPQwdd6/view?usp=sharing)
+  * [TextileNet-fabric](https://drive.google.com/file/d/1G_g3NEcluW9iKbWY6BiCMcSo0eLxCG0z/view)
 
 * One Drive
-  * Fibre <https://liveuclac-my.sharepoint.com/:u:/g/personal/ucabs31_ucl_ac_uk/EcEcoqBIjr9HvE4RJOcyD_YB7ZXc8ws-g5naMnlI6U-nIg>
-  * Fabric <https://liveuclac-my.sharepoint.com/:u:/g/personal/ucabs31_ucl_ac_uk/EcEcoqBIjr9HvE4RJOcyD_YB7ZXc8ws-g5naMnlI6U-nIg>
+  * [TextileNet-fibre](https://liveuclac-my.sharepoint.com/:u:/g/personal/ucabs31_ucl_ac_uk/EcEcoqBIjr9HvE4RJOcyD_YB7ZXc8ws-g5naMnlI6U-nIg)
+  * [TextileNet-fabric](https://liveuclac-my.sharepoint.com/:u:/g/personal/ucabs31_ucl_ac_uk/EcEcoqBIjr9HvE4RJOcyD_YB7ZXc8ws-g5naMnlI6U-nIg)
 
 After extracting both of the these downloaded files to a directory (say `data`), the user should have the following file structure
 
@@ -96,10 +96,10 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train_vits.py --data fiber --batch_size 512 
 # Trained Baselines
 
 * The baselines can also be downloaded from:
-  * TextileNet-fibre + ResNet18 
-  * TextileNet-fibre + Vision Transformer(ViT)
-  * TextileNet-fabric + ResNet18 
-  * TextileNet-fabric + ViT
+  * [TextileNet-fibre + ResNet18](./baselines/TextileNet-fibre/res18_ckpt.pth) 
+  * [TextileNet-fibre + Vision Transformer(ViT)](./baselines/TextileNet-fibre/vits_ckpt.pth) 
+  * [TextileNet-fabric + ResNet18](./baselines/TextileNet-fabric/resnet18_ckpt.pth)
+  * [TextileNet-fabric + ViT](./baselines/TextileNet-fabric/vits_ckpt.pth)
 
 We report their top-1 and top-5 accuracy, more details are in the paper:
 
