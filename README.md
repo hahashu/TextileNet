@@ -114,5 +114,5 @@ We report their top-1 and top-5 accuracy, more details are in the paper:
 <br />
 
 # LICENCE
-The data collection code is released with an MIT license. 
+The data collection code is released with the MIT license. 
 For TextileNet dataset, the author has applied a Creative Commons Attribution (CC BY) licence to any Author Accepted Manuscript version arising. 
