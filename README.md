@@ -101,6 +101,12 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python train_vits.py --data fiber --batch_size 512 
   * [TextileNet-fabric + ResNet18](./baselines/TextileNet-fabric/resnet18_ckpt.pth)
   * [TextileNet-fabric + ViT](./baselines/TextileNet-fabric/vits_ckpt.pth)
 
+
+* The TextileNet labels and class ids:
+  * [TextileNet-fibre labels](./labels/fibre_label.txt) 
+  * [TextileNet-fabric labels](./labels/fabric_label.txt)
+
+
 We report their top-1 and top-5 accuracy, more details are in the paper:
 
 | Dataset Partition |  Network    | Accuracy (top1/5)    |
@@ -109,6 +115,8 @@ We report their top-1 and top-5 accuracy, more details are in the paper:
 | TextileNet-fibre   | ViT       |  44.39±0.08/78.51±0.04         |
 | TextileNet-fabric      | Resnet18    |  58.17±0.40/88.68±0.19    |
 | TextileNet-fabric   | ViT        |   58.51±0.04/87.77±0.07        |
+
+
 
 <br />
 <br />
