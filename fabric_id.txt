@@ -1,0 +1,1 @@
+{'canvas': 0, 'chambray': 1, 'chenille': 2, 'chiffon': 3, 'corduroy': 4, 'crepe': 5, 'denim': 6, 'faux_fur': 7, 'faux_leather': 8, 'flannel': 9, 'fleece': 10, 'gingham': 11, 'jersey': 12, 'knit': 13, 'lace': 14, 'lawn': 15, 'neoprene': 16, 'organza': 17, 'plush': 18, 'satin': 19, 'serge': 20, 'taffeta': 21, 'tulle': 22, 'tweed': 23, 'twill': 24, 'velvet': 25, 'vinyl': 26}
