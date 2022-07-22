@@ -84,9 +84,9 @@ Our baseline models can be trained using the following commands
 cd src
 
 # for resnet
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train_resnet.py --data fiber --batch_size 512 --num_classes 33 --num_workers 32 --seed 0
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train_resnet.py --data fibre --batch_size 512 --num_classes 33 --num_workers 32 --seed 0
 # for vit
-CUDA_VISIBLE_DEVICES=0,1,2,3 python train_vits.py --data fiber --batch_size 512 --num_classes 33 --num_workers 32 --seed 0
+CUDA_VISIBLE_DEVICES=0,1,2,3 python train_vits.py --data fibre --batch_size 512 --num_classes 33 --num_workers 32 --seed 0
 ```
 
 
