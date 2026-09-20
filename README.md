@@ -1,3 +1,5 @@
+
+
 # TextileNet
 We present TextileNet, a material taxonomy-based fashion textile dataset to close the gap in current research on textile material identification in clothing.
 
@@ -78,7 +80,7 @@ python prepare_data.py --parent_dir ./data/fabric --partition fabric --processes
 Our baseline models can be trained using the following commands
 
 * Change `--data` for fibre or fabric
-* Change `--data_parent_dirt` to point to the correct parent directory for datasets
+* Change `--data_parent_dir` to point to the correct parent directory for datasets
 
 ```bash
 cd src
@@ -134,4 +136,4 @@ We report their top-1 and top-5 accuracy, more details are in the paper:
 
 # LICENCE
 The data collection code is released with the MIT license. 
-For TextileNet dataset, the author has applied a Creative Commons Attribution (CC BY) licence to any Author Accepted Manuscript version arising. 
+For TextileNet dataset, the author has applied a Creative Commons Attribution (CC BY) licence to any Author Accepted Manuscript version arising.
